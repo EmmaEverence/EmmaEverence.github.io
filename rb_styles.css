@@ -31,6 +31,7 @@ body {
 }
 
 
+
 /* Header styles */
 
 header {
@@ -49,7 +50,8 @@ header nav ul {
 }
 
 header nav ul li {
-   font-size: 1em;   
+   font-size: 1em;
+   text-transform:uppercase;
 }
 
 header nav ul li a {
@@ -93,10 +95,9 @@ img {
   transform: translate(-50%, -50%);
 }
  
-article p {
-   line-height: 1.5;
-   margin-bottom: 30px;
-   font:center-right;
+article div {
+  text-align: center;
+  text-transform:uppercase;
 }
 
 
